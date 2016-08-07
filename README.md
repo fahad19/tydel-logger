@@ -4,7 +4,7 @@
 
 [![Build Status](https://img.shields.io/travis/fahad19/tydel-logger/master.svg)](http://travis-ci.org/fahad19/tydel-logger) [![npm](https://img.shields.io/npm/v/tydel-logger.svg)](https://www.npmjs.com/package/tydel-logger)
 
-![Preview](https://fahad19.github.io/tydel-demos/images/tydel-logger-preview.png)
+[![Preview](https://fahad19.github.io/tydel-demos/images/tydel-logger-preview.png)](https://fahad19.github.io/tydel-demos/react-counter/)
 
 ## Install
 
