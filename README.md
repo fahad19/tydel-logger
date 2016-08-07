@@ -1,6 +1,6 @@
 # tydel-logger
 
-> Logger for Tydel.js
+> Logger for [Tydel.js](https://github.com/fahad19/tydel)
 
 [![Build Status](https://img.shields.io/travis/fahad19/tydel-logger/master.svg)](http://travis-ci.org/fahad19/tydel-logger) [![npm](https://img.shields.io/npm/v/tydel-logger.svg)](https://www.npmjs.com/package/tydel-logger)
 
