@@ -4,7 +4,10 @@
   "description": "Logger for Tydel.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "dist:lib": "webpack --config ./dist/webpack.config.js",
+    "dist:min": "uglifyjs dist/tydel-logger.js --output dist/tydel-logger.min.js",
+    "dist": "npm run dist:lib && npm run dist:min"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/fahad19/tydel-logger/issues"
   },
-  "homepage": "https://github.com/fahad19/tydel-logger#readme"
+  "homepage": "https://github.com/fahad19/tydel-logger#readme",
+  "peerDependencies": {
+    "tydel": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.1",
+    "tydel": "^0.7.0",
+    "uglify-js": "^2.7.0",
+    "webpack": "^1.13.1"
+  }
 }
