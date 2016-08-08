@@ -27,9 +27,6 @@
     "url": "https://github.com/fahad19/tydel-logger/issues"
   },
   "homepage": "https://github.com/fahad19/tydel-logger#readme",
-  "peerDependencies": {
-    "tydel": "^0.7.0"
-  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.1",
