@@ -61,8 +61,8 @@ this["TydelLogger"] =
 	      console.group(p);
 	    }
 
-	    console.log('%cprev state', 'color: #9e9e9e; font-weight: bold;', prev);
-	    console.log('%cnext state', 'color: #4cAf50; font-weight: bold;', next);
+	    console.log('%cprevious state', 'color: #9e9e9e; font-weight: bold;', prev);
+	    console.log('%c↳current state', 'color: #4cAf50; font-weight: bold;', next);
 
 	    if (typeof console.groupEnd === 'function') {
 	      console.groupEnd();
