@@ -9,4 +9,4 @@ release:
 	git diff --quiet --exit-code --cached || git commit -m 'dist'
 	npm version $(VERSION)
 	npm publish
-	git push --follow-tags
+	git push origin master --follow-tags
