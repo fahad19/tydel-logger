@@ -1,6 +1,6 @@
 {
   "name": "tydel-logger",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Logger for Tydel.js",
   "main": "index.js",
   "scripts": {
