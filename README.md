@@ -14,6 +14,8 @@ $ npm install --save tydel-logger
 
 ## Usage
 
+Pass it as an [initializer](http://tydel.js.org/getting-started/models.html#initializers):
+
 ```js
 import { Types, createModel } from 'tydel';
 import tydelLogger from 'tydel-logger';
